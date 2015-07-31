@@ -1,0 +1,285 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x04110940
+
+[State]
+SysSetCwd='T:\infineon\examples\upt2'
+SrchSetFlags=0x0000600b
+SrchSetAgainFlags=0x00006003,0
+SrchSetAgainFlags=0x06100003,1
+FileSortMode=0x1
+_StateView='T:\infineon\examples\kps2_10\main.c',132,132,1375,424,-1,-1,97,44,88,1,1,'',0x0010000c,0,80,0,0,''
+_StateBuffer='T:\infineon\examples\kps2_10\main.c',0x0c00048e,97,44,25,'5 9','',0x0,'',1,72,1,0
+_StateHistory=FILELIST,'R:\examples\kps2_10\dave\RTC.c','R:\examples\upt2\dave\RTC.c','R:\examples\kps2_10\kps2.mak','R:\examples\kps2_10\main.c','R:\examples\kps2_10\iic.c','R:\examples\upt2\main.c','T:\infineon\examples\kps2_10\ad54x2.c','T:\infineon\examples\kps2_10\ad779x.c','T:\infineon\examples\kps2_10\main.c'
+_StateHistory=SEARCH,'uwFIFO_RecData2','ubyte','LED','p301_manu_software_version','ad779x_data2ohm','kps_4_x_rx_ptr','ad779x_cykl_check','uwFIFO_RecData','test_blink','var '
+_StateHistory=EDITFILE,'R:\examples\kps2_10\dave\SCS.C','R:\examples\kps2_10\my_scs.c','R:\examples\kps2_10\dave.c','R:\examples\kps2_10\dave\ADC0.C','T:\infineon\drivers\shar_src\can_multican_33','T:\infineon\examples\upt2\my_SCS_33.H','T:\infineon\examples\upt2\my_scs_33.c','T:\infineon\examples\upt2\upt2','T:\infineon\drivers\shar_src\can_multican','T:\infineon\examples\kps2_10\my_scs.c'
+_StateHistory=DOCUMENTVISIT,'35          23          T:\infineon\examples\kps2_10\main.c','1           1           T:\infineon\examples\kps2_10\ad54x2.c','362         32          T:\infineon\examples\kps2_10\ad779x.c','1           1           T:\infineon\examples\kps2_10\ad54x2.c','431         32          T:\infineon\examples\kps2_10\ad779x.c','1           1           T:\infineon\examples\kps2_10\ad54x2.c','35          23          T:\infineon\examples\kps2_10\main.c'
+_StateHistory=XOBJECTS,'UNSIGNED8','INTEGER16','INTEGER16*','mcp23S17','mcp23S17_tx_ptr*','CO_REDCY_PARA_DECL*','AD54X2_ADDR*','SCU_STEP0*','CONFIG_CAN_T_CLK*','ad779x_readtype*'
+_StateDocumentVisit=7
+
+[Editor]
+_RestoreSysFlags=0xc30d7fca, 0xfffffffc, 0
+_RestoreSysFlags=0x40010025, 0xffffffff, 1
+CollapseMode=0x13080610
+FilterProjDeleteList 
+FilterProjAdd='Source Files','*.c;*.cc;*.cpp;*.cxx;*.ic;*.c96;*.fle;*.cmp;*.asm;*.src;*.s;*.a96;*.i;*.pcp;*.68k',-1
+FilterProjAdd='Header Files','*.h;*.h68;*.inc;*.sfr',-1
+FilterProjAdd='Project Files','*.pjt',-1
+FilterProjAdd='Resources','*.rc;*.bmp;*.ico;*.cur;*.dlg',-1
+FilterProjAdd='Other Files','*.*',-1
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe'
+
+[Compiler]
+TagSetCmd='"${HOME}${WTAGS}" -oc -d -t"${TAGFILE}.tag" -p"${TAGFILE}.ptg"',0x8000060
+BrowseSetFile='Z:\0\0201\software\examples\s1\s1_xe164.ptg'
+TagSetFile='Z:\0\0201\software\examples\s1\s1_xe164.tag'
+CompilerAddCmdEx='TASKING ccm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING ccm',
+CompilerAddCmdEx='TASKING src','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING src',
+CompilerAddCmdEx='TASKING fle','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING fle',
+CompilerAddCmdEx='TASKING cc','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING cc',
+CompilerAddCmdEx='TASKING cxx','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING cxx',
+CompilerAddCmdEx='TASKING icm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING icm',
+CompilerAddCmdEx='TASKING asm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING asm',
+CompilerAddCmdEx='TASKING cmp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING cmp',
+CompilerAddCmdEx='$_cw_proj_hash_$','',1073741824,'',0,'!EdeExecBuild()',1073741984,'',0,'!EdeExecRebuild()',1073741984,'',0,'!EdeExecDebug()',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err','%x'
+CompilerAddResponse='$_cw_proj_hash_$',
+CompilerAddCmdEx='TASKING cpp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING cpp',
+CompilerAddCmdEx='TASKING ic','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING ic',
+CompilerAddCmdEx='TASKING c','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','z:\0\0201\software\examples\s1\s1_xe164.err',''
+CompilerAddResponse='TASKING c',
+CompilerNewExt=.htm
+CompilerAssign='TASKING src','.src'
+CompilerNewExt=.v
+CompilerNewExt=.awk
+CompilerNewExt=.bas
+CompilerAssign='TASKING c','.c'
+CompilerNewExt=.adb
+CompilerNewExt=.cfml
+CompilerNewExt=.jsp
+CompilerNewExt=.pl
+CompilerNewExt=.vhd
+CompilerNewExt=.pas
+CompilerNewExt=.tk
+CompilerNewExt=.asp
+CompilerNewExt=.rul
+CompilerNewExt=.cob
+CompilerNewExt=.js
+CompilerAssign='TASKING cmp','.cmp'
+CompilerNewExt=.php
+CompilerNewExt=.rc
+CompilerNewExt=.tcl
+CompilerAssign='TASKING fle','.fle'
+CompilerNewExt=.ini
+CompilerAssign='TASKING cc','.cc'
+CompilerAssign='TASKING ic','.ic'
+CompilerAssign='TASKING icm','.icm'
+CompilerNewExt=.cs
+CompilerNewExt=.bat
+CompilerNewExt=.html
+CompilerAssign='TASKING ccm','.ccm'
+CompilerAssign='TASKING cpp','.cpp'
+CompilerAssign='TASKING cxx','.cxx'
+CompilerAssign='TASKING asm','.asm'
+CompilerNewExt=.txt
+CompilerNewExt=.nrx
+CompilerNewExt=.java
+CompilerNewExt=.sqlj
+CompilerNewExt=.xml
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@"%Q" -M@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@"%Q" -M@"%Q" -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f "%b%{??v|___}e"',0x8000040
+
+[Files]
+..\..\canopen\source\utility.c
+..\..\canopen\source\cmscodec.c
+..\..\canopen\source\cmsmain.c
+..\..\canopen\source\emerg.c
+..\..\canopen\source\led.c
+..\..\canopen\source\lme.c
+..\..\canopen\source\nmt.c
+..\..\canopen\source\nmt_s.c
+..\..\canopen\source\nmterr.c
+..\..\canopen\source\pdo.c
+..\..\canopen\source\sdo.c
+..\..\canopen\source\sdomain.c
+..\..\canopen\source\sdoserv.c
+..\..\canopen\source\set_com.c
+..\..\canopen\source\time.c
+..\..\canopen\source\timer.c
+..\..\canopen\source\access_o.c
+.\co_init.c
+.\main.c
+.\nmtslave.c
+.\objects.c
+.\usr_301.c
+.\appl.c
+..\..\drivers\shar_src\cdriver.c
+.\start_tasking.asm
+..\..\drivers\shar_src\cpu_xe166.c
+..\..\canopen\source\sync.c
+..\..\canopen\source\heartbt.c
+.\usr_303.c
+.\ad779x.c
+.\spi.c
+.\mcp23S17.c
+.\ad54x2.c
+.\kps_4_x.c
+.\iic.c
+.\dave\CAN.C
+.\dave\USIC3.c
+.\dave\IO.C
+.\dave\RTC.c
+.\dave\U0C0.C
+.\dave\U0C1.c
+.\dave\U1C0.C
+.\dave\U1C1.c
+.\dave\U2C0.c
+.\dave\U2C1.c
+.\dave\U3C0.c
+.\dave\U3C1.c
+.\dave\USIC0.C
+.\dave\USIC1.C
+.\dave\USIC2.c
+.\cpu.c
+.\init_xe167.c
+.\dave.c
+.\dave\ADC0.C
+.\examples.h
+.\environ.h
+.\cal_conf.h
+..\upt2\my_SCS_33.H
+..\..\drivers\shar_src\can_multican.c
+.\my_scs.c
+
+[Project]
+ConfigSetLinkDBFilename='C:\Dokumente und Einstellungen\Administrator\Lokale Einstellungen\Anwendungsdaten\TASKING\SW019800\v8.7r1\cwright.ldb'
+ConfigSetMarkDBFilename='C:\Dokumente und Einstellungen\Administrator\Lokale Einstellungen\Anwendungsdaten\TASKING\SW019800\v8.7r1\cwright.mrk'
+ConfigSetSymbolDBFilename='Z:\0\0201\software\examples\s1\s1_xe164.sbl'
+EditSetPath=''
+
+[Ede]
+Toolchain=c:\program files\tasking\c166 v8.9r1\etc\c166.dol
+ToolchainName=TASKING Tools for C166/ST10  v8.9r1
+ProjectDir=t:\infineon\examples\kps2_10
+EdeVersion=99.9r9 (Build 152)
+CodeWrightVersion=6.5b
+DefBuildSettings=True
+SaveFiles=True
+AbsolutePathNames=False
+StopAfterError=True
+KeepTmpFiles=False
+ExtMakefile=False
+ExtMakefileName=
+UserMakefile=False
+UserMakefileName=
+UseMakeOptions=False
+MakeOptions=
+CheckTarget=True
+ExtDebugger=False
+ExtDebuggerName=
+UseDOSShell=False
+SaveOptionMethod=0
+SaveOptionFileName=r:\examples\kps2.opt
+LoadOptionFileName=
+LoadOptionStartup=False
+GroupProc=0
+GroupCpp=0
+GroupC=0
+GroupMisraC=0
+GroupAsm=0
+GroupMpp=0
+GroupLL=0
+GroupXvw=0
+DASSetup=0
+GroupList=GroupProc,GroupCpp,GroupC,GroupMisraC,GroupAsm,GroupMpp,GroupLL,GroupXvw,DASSetup
+
+[Directories]
+BinDir1=$(PRODDIR)\bin
+IncDir1=$(PRODDIR)\include
+LibDir1=$(PRODDIR)\lib
+
+[DefaultOptions]
+CpuManufacturer=CpuInfineon
+CpuType=CpuXE167FM
+XvwUseSim=0
+XvwManufacturer=XvwManufacturerInfineon
+XvwExecEnvBoard=Inf_xe16xxm_das_singleCfg
+CpuDerivative=FlashXE167FM72F
+CPUCON1=0x0007
+StartupFileName=start_tasking.asm
+CpuBitInit=1
+CPUCON2=0x8FBB
+VECSEG_enable=1
+VECSEG=0x00C0
+EBCMOD0=0x7400
+CMCTR_enable=1
+CUnsignedChar=1
+COptim=CNoOptim
+LnkLocPrintfFmt=LnkLocMEDIUMPrintfFmt
+COutMergeC=0
+COutKeepSrc=0
+MisraCWarningsRequired=1
+MisraCWarningsAdvisory=1
+MC3=1
+MC12=1
+MC13=1
+MC28=1
+MC40=1
+MC43=0
+MC44=1
+MC82=1
+MC85=1
+MC92=1
+MC97=1
+MC101=1
+MC102=1
+CAddOptions="-I$(PROJDIR)" -I..\..\canopen\include -I..\..\drivers\shar_inc -I..\..\p401
+AsmListPaging=0
+MppListFile=MplDefListFile
+MplListFilePaginate=0
+OutTasking=1
+OutIHex=1
+FlashWorkspace=0xa000
+XvwConfigList=XvwConfigField,TerminateServer,ResetDelay,XvwConfigValue,0,10
+XvwDASWigglerType=XvwDASMiniWigglerII
+XvwVerifyDownload=0
+XvwBreakOnExit=0
+XvwIED=1
+
+[Options]
+FileList=

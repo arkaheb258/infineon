@@ -1,0 +1,18 @@
+;Codewright Project Space File (do not remove or modify this line)
+[State]
+StateWindowFrame=0,0,1440,713,0xc30d7fca
+_StateHistory=PROJECTS,'..\kps2_10\kps2.pjt','.\upt2.pjt'
+_RestoreProject='.\upt2.pjt'
+ProjSpaceFlags=0x00000000, 1
+
+[Project]
+ConfigSetUserWorkspace=''
+ConfigSetUserWorkspaceParser=''
+ConfigSetUserWorkspaceTimeStamp=0
+ConfigSetUserWorkspaceAutoSync=0
+
+
+[Project."..\kps2_10\kps2.pjt"]
+
+[Project.".\upt2.pjt"]
+
